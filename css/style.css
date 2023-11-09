@@ -6,7 +6,9 @@
 /*==========Home Page==========*/
 
 p {
-    font-family: "dupincel-variable", sans-serif;
+    font-family: "playfair-display", serif;
+font-weight: 400;
+font-style: normal;
 
 }
 /*-----nav bar-----*/
@@ -20,6 +22,7 @@ img.cookie {
     display: flex;
     justify-content: space-between;
     background-color: #4B3621;
+    border-bottom: 5px solid #F4C3C2;
 }
 
 div.nav-items {
@@ -31,7 +34,9 @@ div.nav-items {
 a {
     padding-right: 100px;
     text-decoration: none !important;
-    font-family: "dupincel-variable", sans-serif;
+    font-family: "playfair-display", serif;
+font-weight: 400;
+font-style: normal;
     font-size: 20px;
     color:#B2DFDC;
 }
@@ -47,7 +52,9 @@ a {
     padding: 10px;
     border: 3px solid #F4C3C2;
     border-radius: 10px;
-    font-family: "dupincel-variable", sans-serif;
+    font-family: "playfair-display", serif;
+font-weight: 400;
+font-style: normal;
     letter-spacing: 2px;
     font-weight: bold;
     text-transform: uppercase;
@@ -56,7 +63,9 @@ input {
     padding:10px;
     border-radius: 10px;
     border: 3px solid #F4C3C2;
-    font-family: "dupincel-variable", sans-serif;
+    font-family: "playfair-display", serif;
+font-weight: 400;
+font-style: normal;
 }
 
 div.section-1 {
@@ -86,14 +95,14 @@ font-style: normal;
 /*-----section 2-----*/
 div.section-2 {
     background-color: #F4C3C2;
-    margin:0px;
-    display: flex;
-    justify-content: center;
+    height: 30px;
 }
 
 p.enhance {
     font-size: 50px;
-    font-family: "dupincel-variable", sans-serif;
+    font-family: "playfair-display", serif;
+font-weight: 400;
+font-style: normal;
     font-style: italic;
     letter-spacing: 2px;
 }
@@ -106,17 +115,15 @@ div.section-3 {
     
 }
 /*-----section 4-----*/
-div.section-4 {
+ div.section-4 {
     background-color: #FFF6E9;
     display: flex;
     justify-content: space-evenly;
     padding:50px;
-}
-img.baking-imgs {
-    max-width: 20%;
-    max-height: auto;
-    border-radius: 50%;
-}
+} 
+ img.baking-imgs {
+    max-width: 100%;
+} 
 /*-----section 5-----*/
 div.section-5 {
     background-image: url("/imgs/baking2.JPG");
@@ -136,12 +143,13 @@ div.reviews {
     padding: 15px;
     margin:25px;
     text-align: center;
-    font-family: "dupincel-variable", sans-serif;
-font-variation-settings: "opsz" 24, "wght" 400;
+    font-family: "playfair-display", serif;
+font-weight: 400;
+font-style: normal;
 }
 /*-----section 6-----*/
 div.section-6 {
-    background-color: #7B3E1A;
+    background-color: #4B3621;
     margin: 0px;
 }
 
@@ -151,12 +159,14 @@ div.circles {
 }
 
 .mom , .sami , .dad {
-    background-color: #F4C3C2;
-     border-radius: 50%; 
+     background-color: #F4C3C2; 
+     border-radius: 15px; 
     padding: 25px;
     text-align: center;
     margin:10px;
-    font-family: "dupincel-variable", sans-serif;
+    font-family: "playfair-display", serif;
+font-weight: 400;
+font-style: normal;
 font-variation-settings: "opsz" 24, "wght" 400;
 
 }
@@ -165,7 +175,9 @@ p.text {
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
-    font-family: "dupincel-variable", sans-serif;
+    font-family: "playfair-display", serif;
+font-weight: 400;
+font-style: normal;
 font-weight: 400;
 font-style: italic;
     color:#FFF6E9;
@@ -211,7 +223,7 @@ img.stars-img {
 }
 
 img.recipe-img {
-    width:40%;
+    width:60%;
     height: auto;
 }
 div.row-1 {
@@ -232,7 +244,9 @@ div.row-2, div.row-3, div.row-4 {
 
 div.boxes {
     color:#FFF6E9;
-    font-family: "forma-djr-display", sans-serif !important;
+    font-family: "playfair-display", serif;
+font-weight: 400;
+font-style: normal;
     background-color: #4B3621;
     border: 10px solid #F4C3C2;
     border-radius: 20px;
@@ -256,18 +270,51 @@ a.review-btn {
 
 /*==========Recipes==========*/
 h3.recipe-name {
-    font-family: "modula-serif", serif;
+    font-family: "playfair-display", serif;
+    font-weight: 400;
+    font-style: normal;
 font-weight: 700;
 font-style: normal;
 font-size: 30px;
 }
+/*==========Stories==========*/
+div.stories {
+    background-image: url("/imgs/cookbook.png");
+    height:400px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0xp;
+}
+h1.stories-h1 {
+    margin: 0px;
+    color:#4B3621;
+}
+ h3 {
+    font-family: "playfair-display", serif;
+font-weight: 700;
+font-style: normal;
+font-size: 30px;
+}
+div.story-cream {
+    background-color: #FFF6E9;
+    margin: 0px;
+    padding:25px;
+    color:#4B3621
+}
+
+div.story-brown {
+    background-color: #4B3621;
+    margin:0px;
+    padding:25px;
+    color:#FFF6E9;
+}
 /*==========Footer==========*/
 footer {
     background-color: #4B3621;
-    color:#FFF6E9;
+    color:#0c0b09;
     display: flex;
     justify-content: space-evenly;
-    font-family: "modula-serif", serif;
-    font-size: 20px;
     margin:0px;
+    padding: 15px;
 }
