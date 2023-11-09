@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>PWA Camera practice </h1>
+    <input id=“camera” type=“file” accept=“image/*” capture=“user”/>
+
+    <h2>Selected Photo</h2>
+    <img id="previewImg" src="" alt="" style="max-width: 100%;" />
+
+
+    <script>
+     // Get a reference to the file:input
+let camera = document.querySelector("#camera");
+
+// Get a reference to the preview image
+let previewImg = document.querySelector("#previewImg");
+
+// Listen to camera for a change in selection
+camera.addEventListener("change", function (event) {
+  // When file input changes, run this code...
+  console.log("User changed file input");
+
+  let photo = camera.files[0];
+
+  let imgSrc = URL.createObjectURL(photo);
+  // console.log("Image URL", imgSrc);
+  previewImg.src = imgSrc;
+
+  // console.log(previewImg);
+});
+
+
+    </script>
+</body>
+</html>
