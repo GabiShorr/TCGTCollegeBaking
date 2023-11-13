@@ -15,7 +15,8 @@ font-style: normal;
 img.cookie {
     width:100px;
     height: auto;
-    padding: 15px;
+    padding: 15px; 
+    
 }
 
 .nav-bar {
@@ -30,15 +31,18 @@ div.nav-items {
     list-style-type: none;
     align-items: center;
     letter-spacing: 2px;
-}
-a {
-    padding-right: 100px;
-    text-decoration: none !important;
-    font-family: "playfair-display", serif;
+    font-family: "ff-cocon-pro", sans-serif !important;
 font-weight: 400;
 font-style: normal;
+}
+a {
+    text-decoration: none !important;
+    font-family: "ff-cocon-pro", sans-serif !important;
     font-size: 20px;
     color:#B2DFDC;
+}
+a.nav-padding {
+    padding-right:100px !important;
 }
 
 .search {
@@ -52,9 +56,9 @@ font-style: normal;
     padding: 10px;
     border: 3px solid #F4C3C2;
     border-radius: 10px;
-    font-family: "playfair-display", serif;
-font-weight: 400;
-font-style: normal;
+    font-family: "ff-cocon-pro", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
     letter-spacing: 2px;
     font-weight: bold;
     text-transform: uppercase;
@@ -63,7 +67,7 @@ input {
     padding:10px;
     border-radius: 10px;
     border: 3px solid #F4C3C2;
-    font-family: "playfair-display", serif;
+    font-family: "ff-cocon-pro", sans-serif !important;
 font-weight: 400;
 font-style: normal;
 }
@@ -100,7 +104,7 @@ div.section-2 {
 
 p.enhance {
     font-size: 50px;
-    font-family: "playfair-display", serif;
+    font-family: "ff-cocon-pro", sans-serif !important;
 font-weight: 400;
 font-style: normal;
     font-style: italic;
@@ -143,7 +147,7 @@ div.reviews {
     padding: 15px;
     margin:25px;
     text-align: center;
-    font-family: "playfair-display", serif;
+    font-family: "ff-cocon-pro", sans-serif !important;
 font-weight: 400;
 font-style: normal;
 }
@@ -164,7 +168,7 @@ div.circles {
     padding: 25px;
     text-align: center;
     margin:10px;
-    font-family: "playfair-display", serif;
+    font-family: "ff-cocon-pro", sans-serif !important;
 font-weight: 400;
 font-style: normal;
 font-variation-settings: "opsz" 24, "wght" 400;
@@ -175,7 +179,7 @@ p.text {
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
-    font-family: "playfair-display", serif;
+    font-family: "ff-cocon-pro", sans-serif !important;
 font-weight: 400;
 font-style: normal;
 font-weight: 400;
@@ -194,8 +198,9 @@ div.section-7 {
     
 }
 h2 {
-font-weight: 700;
-font-style: normal;
+    font-family: "ff-cocon-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     letter-spacing: 3px;
     color:#FFF6E9;
     text-align: center;
@@ -241,19 +246,6 @@ div.row-2, div.row-3, div.row-4 {
     display: flex;
 }
 
-div.boxes {
-    color:#FFF6E9;
-    font-family: "playfair-display", serif;
-font-weight: 400;
-font-style: normal;
-    background-color: #4B3621;
-    border: 10px solid #F4C3C2;
-    border-radius: 20px;
-    margin:25px;
-    text-align: center;
-    padding-top:25px;
-    padding-bottom:25px;
-}
 
 a.review-btn {
     background-color: #F4C3C2;
@@ -272,14 +264,49 @@ a.review-btn {
     padding: 50px;
 }
 
+p {
+    font-family: "ff-cocon-pro", sans-serif;
+font-weight: 200;
+font-style: normal;
+}
 /*==========Recipes==========*/
 h3.recipe-name {
-    font-family: "playfair-display", serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "ff-cocon-pro", sans-serif;
 font-weight: 700;
-font-style: normal;
 font-size: 30px;
+}
+
+.slider2 {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+div.boxes {
+    color:#FFF6E9;
+    font-family: "ff-cocon-pro", sans-serif;
+font-weight: 400;
+font-style: normal;
+    background-color: #4B3621;
+    border: 10px solid #F4C3C2;
+    border-radius: 20px;
+    margin:25px;
+    text-align: center;
+    padding-top:25px;
+    padding-bottom:25px;
+    min-width:25%;
+    height:320px;
+    overflow:hidden;
+    scroll-snap-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+div.recipes-open {
+    max-height: 450px; 
+     background-size: cover;
+  overflow: hidden;  
 }
 /*==========Stories==========*/
 div.stories {
@@ -295,9 +322,9 @@ h1.stories-h1 {
     padding:150px;
 }
  h3 {
-    font-family: "playfair-display", serif;
-font-weight: 700;
-font-style: normal;
+    font-family: "ff-cocon-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 font-size: 30px;
 }
 div.story-cream {
@@ -312,6 +339,69 @@ div.story-brown {
     margin:0px;
     padding:25px;
     color:#FFF6E9;
+}
+/*========== TIPS AND TRICKS ==========*/
+div.tips-1 {
+    background-image: url("/imgs/flour.jpg");
+    height:450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.tips-2 {
+    background-color: #F4C3C2;
+    text-align: center;
+    padding:25px;
+}
+h3.tips-header {
+    margin:0px;
+    padding-bottom:25px;
+    color:#4B3621;
+}
+p.tips-text {
+    margin:0px;
+    color:#4B3621;
+}
+div.tips-3 {
+    background-color: #F4C3C2;
+    padding:50px;
+}
+div.tips-box {
+    background-color: #FFF6E9;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+    border:5px solid #4B3621;
+    color:#4B3621;
+    min-width:25%;
+    height:320px;
+    overflow:hidden;
+    scroll-snap-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+h4 {
+    font-family: "ff-cocon-pro", sans-serif;
+    font-size:25px;
+
+}
+.slider {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+::-webkit-scrollbar {
+    width:5px;
+    height:5px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px gray;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #B2DFDC;
+    border-radius: 4px;
 }
 /*==========Footer==========*/
 footer {
