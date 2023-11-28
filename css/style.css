@@ -1,8 +1,8 @@
 /*==========Header font==========*/
-/* @font-face{
+ @font-face{
     font-family: "Brodies";
     src:url("brodies.ttf");
-} */
+} 
 /*==========Home Page==========*/
 
 p {
@@ -23,7 +23,7 @@ img.cookie {
     display: flex;
     justify-content: space-between;
     background-color: #4B3621;
-    border-bottom: 5px solid #F4C3C2;
+    border-bottom: 3px solid #F4C3C2;
 }
 
 div.nav-items {
@@ -86,9 +86,7 @@ div.section-1 {
 }
 /*-----section 1-----*/
 h1 {
-    font-family: "amandine", sans-serif;
-font-weight: 800;
-font-style: normal;
+    font-family: "Brodies";
     letter-spacing: 3px;
     font-size:50px;
 }
@@ -190,7 +188,7 @@ font-style: italic;
     margin:0px;
 }
 /*-----section 7-----*/
-div.section-7 {
+div#section-7 {
     background-image: url("/imgs/baking5.JPG");
     background-repeat: no-repeat;
     background-size: cover;
@@ -227,9 +225,10 @@ img.stars-img {
 }
 
 img.recipe-img {
-    width:60%;
+    width:50%;
     height: auto;
 }
+
 div.row-1 {
     text-align: center;
     margin: 0px;
@@ -269,7 +268,7 @@ p {
 font-weight: 200;
 font-style: normal;
 }
-/*==========Recipes==========*/
+
 h3.recipe-name {
     font-family: "ff-cocon-pro", sans-serif;
 font-weight: 700;
@@ -287,15 +286,13 @@ font-size: 30px;
 div.boxes {
     color:#FFF6E9;
     font-family: "ff-cocon-pro", sans-serif;
-font-weight: 400;
-font-style: normal;
     background-color: #4B3621;
     border: 10px solid #F4C3C2;
     border-radius: 20px;
     margin:25px;
     text-align: center;
     padding-top:25px;
-    padding-bottom:25px;
+    padding-bottom:65px;
     min-width:25%;
     height:320px;
     overflow:hidden;
@@ -411,4 +408,55 @@ footer {
     justify-content: space-evenly;
     margin:0px;
     padding: 15px;
+}
+
+/* log in test */
+
+div.login {
+    background-color: #FFF6E9;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+} 
+
+.container {
+    background-color: #F4C3C2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #4B3621;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #4B3621;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #A8CFCA;
+    color: #4B3621;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4B3621;
+    color: #FFF6E9;
 }
