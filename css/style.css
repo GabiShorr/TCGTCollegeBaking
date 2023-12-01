@@ -460,3 +460,45 @@ button:hover {
     background-color: #4B3621;
     color: #FFF6E9;
 }
+
+/*========== Recipe Pages ==========*/
+.checkbox , .steps-list , .steps-header {
+    font-family: "ff-cocon-pro", sans-serif !important;
+    color:#4B3621;
+
+}
+
+.checkbox {
+    padding-left:45px;
+}
+
+.steps-header, .pro {
+    padding-left:25px;
+}
+
+.recipe-link:hover {
+    text-decoration: underline !important;
+}
+
+body {
+    background-color: #FFF6E9;
+}
+
+.apple-1 {
+    text-align: center;
+}
+
+.apple-1 h1 {
+    color:#4B3621;
+}
+
+.recipepageimgs {
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.recipe-imgs {
+    max-width: 30%;
+    border-radius: 15px;
+}

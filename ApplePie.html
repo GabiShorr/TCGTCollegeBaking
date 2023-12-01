@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
     <link rel="stylesheet" href="https://use.typekit.net/gps7sux.css">
@@ -11,7 +11,6 @@
 </head>
 <body>
     <nav class="nav-bar">
-        <h1 class="title-h1">Recipe Tracker!</h1>
         <ion-menu content-id="main-content">
             <ion-header>
               <ion-toolbar>
@@ -19,7 +18,7 @@
               </ion-toolbar>
             </ion-header>
             <ul class="nav-ul">
-              <a href="/index.html"><li>Home</li></a>
+                <a href="/home.html"><li>Home</li></a>
                 <a href="/BananaBread.html"><li>Banana Bread</li></a>
                 <a href="/CCCookies.html"><li>Chocolate Chip Cookies</li></a>
                 <a href="/MugCookie.html"><li>Mug Cookie</li></a>
@@ -47,7 +46,12 @@
     </nav>
     <div class="apple-1">
         <h1>Apple Pie</h1>
-        <a href="https://www.allrecipes.com/recipe/12682/apple-pie-by-grandma-ople/" target="_blank">By: AllRecipes.com</a>
+        <a class="recipe-link" href="https://www.allrecipes.com/recipe/12682/apple-pie-by-grandma-ople/" target="_blank">By: AllRecipes.com</a>
+        <div class="recipepageimgs">
+          <img class="recipe-imgs" src="imgs/priscilla-du-preez-BpVSPBPX-5M-unsplash.jpg">
+          <img class="recipe-imgs" src="imgs/priscilla-du-preez-SU5jSHu1pK8-unsplash.jpg">
+          <img class="recipe-imgs" src="imgs/kavya-p-k-zQ4jrYelvLs-unsplash.jpg">
+        </div>
     </div>
     <div class="ingredients-list">
         <h4 class="steps-header">Ingredients</h4>
@@ -100,7 +104,7 @@
         <br />
         <ion-checkbox class="checkbox" label-placement="end"><b>STEP 10:</b> Bake in the preheated oven for 15 minutes. Reduce the temperature to 350 degrees F (175 degrees C) and continue baking until apples are soft, 35 to 45 minutes.</ion-checkbox>
         <br />
-        <p><b>*PRO TIP - </b> Slice the apples and let them sit in some lemon juice, vanilla extract and the spices while you make the sauce! </p>
+        <p class="pro"><b>*PRO TIP - </b> Slice the apples and let them sit in some lemon juice, vanilla extract and the spices while you make the sauce! </p>
     </div>
 </body>
 </html>
