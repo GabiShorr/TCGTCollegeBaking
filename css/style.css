@@ -1,16 +1,9 @@
 /*==========Header font==========*/
-/* @font-face{
-    font-family: "Brodies";
+ @font-face{
+    font-family: "quicksand", sans-serif;
     src:url("brodies.ttf");
-} */
+} 
 /*==========Home Page==========*/
-
-p {
-    font-family: "playfair-display", serif;
-font-weight: 400;
-font-style: normal;
-
-}
 /*-----nav bar-----*/
 img.cookie {
     width:100px;
@@ -23,7 +16,7 @@ img.cookie {
     display: flex;
     justify-content: space-between;
     background-color: #4B3621;
-    border-bottom: 5px solid #F4C3C2;
+    border-bottom: 3px solid #F4C3C2;
 }
 
 div.nav-items {
@@ -31,13 +24,13 @@ div.nav-items {
     list-style-type: none;
     align-items: center;
     letter-spacing: 2px;
-    font-family: "ff-cocon-pro", sans-serif !important;
+    font-family: "quicksand", sans-serif !important;
 font-weight: 400;
 font-style: normal;
 }
 a {
     text-decoration: none !important;
-    font-family: "ff-cocon-pro", sans-serif !important;
+    font-family: "quicksand", sans-serif !important;
     font-size: 20px;
     color:#B2DFDC;
 }
@@ -45,29 +38,23 @@ a.nav-padding {
     padding-right:100px !important;
 }
 
-.search {
-    padding: 30px 40px 20px 0px
-
-}
+ .search {
+    padding: 30px 40px 20px 0px;
+} 
 
 .srch-btn {
     background-color: #B2DFDC;
     color:#4B3621;
-    padding: 10px;
     border: 3px solid #F4C3C2;
     border-radius: 10px;
-    font-family: "ff-cocon-pro", sans-serif !important;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: 2px;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-family: "quicksand", sans-serif !important;
+    width:30%;
 }
 input {
     padding:10px;
     border-radius: 10px;
     border: 3px solid #F4C3C2;
-    font-family: "ff-cocon-pro", sans-serif !important;
+    font-family: "quicksand", sans-serif !important;
 font-weight: 400;
 font-style: normal;
 }
@@ -86,9 +73,7 @@ div.section-1 {
 }
 /*-----section 1-----*/
 h1 {
-    font-family: "amandine", sans-serif;
-font-weight: 800;
-font-style: normal;
+    font-family: "quicksand", sans-serif;
     letter-spacing: 3px;
     font-size:50px;
 }
@@ -104,7 +89,7 @@ div.section-2 {
 
 p.enhance {
     font-size: 50px;
-    font-family: "ff-cocon-pro", sans-serif !important;
+    font-family: "quicksand", sans-serif !important;
 font-weight: 400;
 font-style: normal;
     font-style: italic;
@@ -147,7 +132,7 @@ div.reviews {
     padding: 15px;
     margin:25px;
     text-align: center;
-    font-family: "ff-cocon-pro", sans-serif !important;
+    font-family: "quicksand", sans-serif !important;
 font-weight: 400;
 font-style: normal;
 }
@@ -168,7 +153,7 @@ div.circles {
     padding: 25px;
     text-align: center;
     margin:10px;
-    font-family: "ff-cocon-pro", sans-serif !important;
+    font-family: "quicksand", sans-serif !important;
 font-weight: 400;
 font-style: normal;
 font-variation-settings: "opsz" 24, "wght" 400;
@@ -179,7 +164,7 @@ p.text {
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
-    font-family: "ff-cocon-pro", sans-serif !important;
+    font-family: "quicksand", sans-serif !important;
 font-weight: 400;
 font-style: normal;
 font-weight: 400;
@@ -190,7 +175,7 @@ font-style: italic;
     margin:0px;
 }
 /*-----section 7-----*/
-div.section-7 {
+div#section-7 {
     background-image: url("/imgs/baking5.JPG");
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,7 +183,7 @@ div.section-7 {
     
 }
 h2 {
-    font-family: "ff-cocon-pro", sans-serif;
+    font-family: "quicksand", sans-serif;
     font-weight: 700;
     font-style: normal;
     letter-spacing: 3px;
@@ -227,9 +212,10 @@ img.stars-img {
 }
 
 img.recipe-img {
-    width:60%;
+    width:50%;
     height: auto;
 }
+
 div.row-1 {
     text-align: center;
     margin: 0px;
@@ -265,13 +251,13 @@ a.review-btn {
 }
 
 p {
-    font-family: "ff-cocon-pro", sans-serif;
+    font-family: "quicksand", sans-serif;
 font-weight: 200;
 font-style: normal;
 }
-/*==========Recipes==========*/
+
 h3.recipe-name {
-    font-family: "ff-cocon-pro", sans-serif;
+    font-family: "quicksand", sans-serif;
 font-weight: 700;
 font-size: 30px;
 }
@@ -286,16 +272,14 @@ font-size: 30px;
 
 div.boxes {
     color:#FFF6E9;
-    font-family: "ff-cocon-pro", sans-serif;
-font-weight: 400;
-font-style: normal;
+    font-family: "quicksand", sans-serif;
     background-color: #4B3621;
     border: 10px solid #F4C3C2;
     border-radius: 20px;
     margin:25px;
     text-align: center;
     padding-top:25px;
-    padding-bottom:25px;
+    padding-bottom:65px;
     min-width:25%;
     height:320px;
     overflow:hidden;
@@ -308,38 +292,76 @@ div.recipes-open {
      background-size: cover;
   overflow: hidden;  
 }
+
+.recipes-h1 {
+    color:#4B3621;
+    text-align: center;
+}
+
+.nav-ul {
+list-style: none;
+line-height: 60px; 
+color:#4B3621 !important;
+background-color: #4B3621;
+}
+
+.toolbar-container  {
+    background-color: #4B3621 !important;
+}
+
+ .hydrated {
+    font-family: "quicksand", sans-serif;
+}
 /*==========Stories==========*/
 div.stories {
-    background-image: url("/imgs/cookbook.png");
+    background-image: url("/imgs/DSC_4301.JPG");
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0xp;
+    height: 500px;
 }
 h1.stories-h1 {
     margin: 0px;
-    color:#4B3621;
-    padding:150px;
+    color:#FFF6E9;
+    padding:250px;
 }
  h3 {
-    font-family: "ff-cocon-pro", sans-serif;
+    font-family: "quicksand", sans-serif;
     font-weight: 700;
     font-style: normal;
 font-size: 30px;
+margin:0px;
 }
 div.story-cream {
     background-color: #FFF6E9;
-    margin: 0px;
-    padding:25px;
+    padding:35px;
     color:#4B3621
 }
 
+
 div.story-brown {
     background-color: #4B3621;
-    margin:0px;
-    padding:25px;
+    padding:35px;
     color:#FFF6E9;
+ 
 }
+
+.stories-btn {
+    background-color: #7B3E1A;
+    font-size: 14px;
+    color:#FFF6E9;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+
+.stories-btn:hover {
+    background-color: #F4C3C2;
+    color:#4B3621;
+    
+}
+
 /*========== TIPS AND TRICKS ==========*/
 div.tips-1 {
     background-image: url("/imgs/flour.jpg");
@@ -380,7 +402,7 @@ div.tips-box {
     box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
 }
 h4 {
-    font-family: "ff-cocon-pro", sans-serif;
+    font-family: "quicksand", sans-serif;
     font-size:25px;
 
 }
@@ -403,12 +425,116 @@ h4 {
     background-color: #B2DFDC;
     border-radius: 4px;
 }
+
+h1.tips-heading {
+    margin:0px !important;
+    text-align: center;
+    vertical-align: middle;
+}
 /*==========Footer==========*/
 footer {
     background-color: #4B3621;
     color:#0c0b09;
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex;
+    justify-content: space-evenly; */
     margin:0px;
     padding: 15px;
+}
+
+div.footer-icons {
+    display: flex;
+    justify-content: center;
+ 
+}
+/* log in test
+
+div.login {
+    background-color: #FFF6E9;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+} 
+
+.container {
+    background-color: #F4C3C2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #4B3621;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #4B3621;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #A8CFCA;
+    color: #4B3621;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4B3621;
+    color: #FFF6E9;
+} */
+
+/*========== Recipe Pages ==========*/
+.checkbox , .steps-list , .steps-header {
+    font-family: "quicksand", sans-serif !important;
+    color:#4B3621;
+
+}
+
+.checkbox {
+    padding-left:45px;
+}
+
+.steps-header, .pro {
+    padding-left:25px;
+}
+
+.recipe-link:hover {
+    text-decoration: underline !important;
+}
+
+body {
+    background-color: #FFF6E9;
+}
+
+.apple-1 {
+    text-align: center;
+}
+
+.apple-1 h1 {
+    color:#4B3621;
+}
+
+.recipepageimgs {
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.recipe-imgs {
+    max-width: 30%;
+    border-radius: 15px;
 }
