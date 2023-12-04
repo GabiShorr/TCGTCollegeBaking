@@ -3,26 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/gps7sux.css">
     <title>Recipe Tracker</title>
 </head>
 <body>
     <nav class="nav-bar">
-        <h1 class="title-h1">Recipe Tracker!</h1>
-        <ul class="nav-ul">
-            <a href="/BananaBread.html"><li>Banana Bread</li></a>
-            <a href="/CCCookies.html"><li>Chocolate Chip Cookies</li></a>
-            <a href="/MugCookie.html"><li>Mug Cookie</li></a>
-            <a href="/MugCake.html"><li>Mug Cake</li></a>
-            <a href="/Crepes.html"><li>Crepes</li></a>
-            <a href="/SugarCookies.html"><li>Sugar Cookies</li></a>
-            <a href="/AppleBread.html"><li>Apple Bread</li></a>
-            <a href="/PumpkinBread.html"><li>Pumpkin Bread</li></a>
-            <a href="/Brownies.html"><li>Brownies</li></a>
-            <a href="/OatmealRasinCookies.html"><li>Oatmeal Raisin Cookies</li></a>
-            <a href="/ChocolateLoversTrifle.html"><li>Chocolate Lovers Trifle</li></a>
-            <a href="/Pudding.html"><li>Pudding</li></a>
-        </ul>
+        <ion-menu content-id="main-content">
+            <ion-header>
+              <ion-toolbar>
+                <ion-title>Recipes</ion-title>
+              </ion-toolbar>
+            </ion-header>
+            <ul class="nav-ul">
+              <a href="/home.html"><li>Home</li></a>
+                <a href="/BananaBread.html"><li>Banana Bread</li></a>
+                <a href="/CCCookies.html"><li>Chocolate Chip Cookies</li></a>
+                <a href="/MugCookie.html"><li>Mug Cookie</li></a>
+                <a href="/MugCake.html"><li>Mug Cake</li></a>
+                <a href="/Crepes.html"><li>Crepes</li></a>
+                <a href="/SugarCookies.html"><li>Sugar Cookies</li></a>
+                <a href="/ApplePie.html"><li>Apple Pie</li></a>
+                <a href="/PumpkinBread.html"><li>Pumpkin Bread</li></a>
+                <a href="/Brownies.html"><li>Brownies</li></a>
+                <a href="/OatmealRasinCookies.html"><li>Oatmeal Raisin Cookies</li></a>
+                <a href="/ChocolateLoversTrifle.html"><li>Chocolate Lovers Trifle</li></a>
+                <a href="/Pudding.html"><li>Pudding</li></a>
+            </ul>
+          </ion-menu>
+          <div class="ion-page" id="main-content">
+            <ion-header>
+              <ion-toolbar>
+                <ion-buttons slot="start">
+                  <ion-menu-button></ion-menu-button>
+                </ion-buttons>
+                <ion-title>Recipes</ion-title>
+              </ion-toolbar>
+            </ion-header>
+          </div>
     </nav>
+    <div class="apple-1">
+        <h1>Pudding</h1>
+        <div class="recipepageimgs">
+          <img class="recipe-imgs" src="imgs/priscilla-du-preez-BpVSPBPX-5M-unsplash.jpg">
+          <img class="recipe-imgs" src="imgs/priscilla-du-preez-SU5jSHu1pK8-unsplash.jpg">
+          <img class="recipe-imgs" src="imgs/kavya-p-k-zQ4jrYelvLs-unsplash.jpg">
+        </div>
+      </div>
+    <div class="ingredients-list">
+        <h4 class="steps-header">Ingredients</h4>
+        <ion-checkbox class="checkbox" label-placement="end">Pudding Packet </ion-checkbox>
+        <br />
+        <ion-checkbox class="checkbox" label-placement="end">1/2 cup Milk</ion-checkbox>
+        <br />
+        
+    </div>
+    <div class="steps-list">
+        <h4 class="steps-header">Steps:</h4>
+        <ion-checkbox class="checkbox" label-placement="end"><b>STEP 1:</b> Make the pudding and let sit in the fridge for 15 minutes then enjoy!</ion-checkbox>
+       
+        <p class="pro"><b>*PRO TIP - </b> Whipped cream is a great topping!  </p>
+    </div>
 </body>
 </html>
