@@ -6,10 +6,18 @@
 /*==========Home Page==========*/
 /*-----nav-bar bar-----*/
 img.cookie {
-    width:100px;
+    width:130px;
     height: auto;
     padding: 15px; 
 }
+
+.logo a:after {
+    display: none;
+}
+
+ .logo a::before {
+    display: none;
+} 
 
 .logo {
 
@@ -460,7 +468,7 @@ p.tips-text {
 }
 div.tips-3 {
     background-color: #F4C3C2;
-    padding:50px;
+    padding:120px;
 }
 div.tips-box {
     background-color: #FFF6E9;
@@ -505,6 +513,9 @@ h1.tips-heading {
     margin:0px !important;
     text-align: center;
     vertical-align: middle;
+    padding-top:175px;
+    color:#FFF6E9;
+
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
@@ -515,6 +526,10 @@ h1.tips-heading {
   /* height: 55px; */
    top: 30%;  
 font-size: 80px;
+display: flex;
+color:#FFF6E9;
+margin-top:290px;
+margin-left:80px;
 }
 
 
@@ -522,6 +537,8 @@ font-size: 80px;
   position:absolute;
   width: 920px;
   opacity: 0;
+  text-align: left;
+  padding-left:25px;
 }
 
 .letter {
@@ -550,7 +567,7 @@ font-size: 80px;
 }
 
 .belize {
-  color: #B2DFDC;
+  color: #004944;
 }
 
 .pomegranate {
@@ -558,7 +575,7 @@ font-size: 80px;
 }
 
 .green {
-  color: #FFF6E9;
+  color: #807f7c;
 }
 
 .midnight {
