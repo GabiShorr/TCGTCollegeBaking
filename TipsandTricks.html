@@ -20,47 +20,74 @@
            <a class="nav-padding" href="/TipsandTricks.html"><li>Tips and Tricks</li></a>
            <a class="nav-padding" href="/stories.html"><li>Stories</li></a>
          </div>
-         <div class="search">
+         <!-- <div class="search">
            <form action="/action_page.php">
              <input type="text" placeholder="Search.." name="search">
              <button class="srch-btn" type="submit">Submit</button>
            </form>
-         </div>
+         </div> -->
         </nav>
       </header>
       
-      <div class="tips-1"></div>
-
-      <div class="tips-2">
-        <h3 class="tips-header"> Need a little boost to help the baking process easier?! Follow my tips and tricks to make your life easier!</h3>
-        <p class="tips-text">These are things that I have found helped me the most!*</p>
+      <div class="tips-1">
+        <h1 class="tips-heading">Tips and Tricks</h1>
       </div>
+      <div class="tips-2">
+      <div class="text">
+        <!-- <h3 class="tips-header"> Need a little boost to help the baking process easier?! Follow my tips and tricks to make your life easier!</h3>
+        <p class="tips-text">These are things that I have found helped me the most!*</p> -->
+          <p>My baking tips are </p>
+          <p>
+            <span class="word wisteria">practical.</span>
+            <span class="word belize">efficient.</span>
+            <span class="word pomegranate">resourceful.</span>
+            <span class="word green">adaptable.</span>
+            <span class="word midnight">empowering.</span>
+          </p>
+      </div>
+    </div>
 
       <div class="tips-3">
         <div class="slider">
           <div class="tips-box">
-            <h4> Tip 1</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero assumenda harum ratione beatae cupiditate ab iste dolores, odit earum a totam magnam officia consequuntur nostrum nihil doloribus odio provident fugit.</p>
+            <h4>Simple Swaps for Eggs</h4>
+            <p>If you're running low on eggs, substitute with ingredients like applesauce, mashed bananas, or yogurt. These alternatives maintain moisture and binding properties in your baked goods.</p>
           </div>
           <div class="tips-box">
-            <h4> Tip 1</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero assumenda harum ratione beatae cupiditate ab iste dolores, odit earum a totam magnam officia consequuntur nostrum nihil doloribus odio provident fugit.</p>
+            <h4> DIY Buttermilk</h4>
+            <p>No buttermilk? No problem! Create a quick substitute by adding one tablespoon of vinegar or lemon juice to a cup of milk. Let it sit for a few minutes until it curdles, and use it as you would regular buttermilk.            </p>
           </div>
           <div class="tips-box">
-            <h4> Tip 1</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero assumenda harum ratione beatae cupiditate ab iste dolores, odit earum a totam magnam officia consequuntur nostrum nihil doloribus odio provident fugit.</p>
+            <h4>One-Bowl Wonders</h4>
+            <p>Opt for recipes that require minimal equipment and cleanup. One-bowl recipes not only save time but also reduce the number of utensils you need, making the baking process more efficient.</p>
           </div>
           <div class="tips-box">
-            <h4> Tip 1</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero assumenda harum ratione beatae cupiditate ab iste dolores, odit earum a totam magnam officia consequuntur nostrum nihil doloribus odio provident fugit.</p>
+            <h4>Gluten-Free Flour Alternatives</h4>
+            <p>For gluten-free baking, experiment with alternatives like almond flour, coconut flour, or a gluten-free flour blend. Keep in mind that the texture may vary, so adjust the quantity accordingly.</p>
           </div>
           <div class="tips-box">
-            <h4> Tip 1</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero assumenda harum ratione beatae cupiditate ab iste dolores, odit earum a totam magnam officia consequuntur nostrum nihil doloribus odio provident fugit.</p>
+            <h4>Oil for Butter</h4>
+            <p>In a pinch, replace butter with vegetable oil or even coconut oil. This substitution works well in various recipes, especially when you're short on dairy products.</p>
           </div>
           <div class="tips-box">
-            <h4> Tip 1</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero assumenda harum ratione beatae cupiditate ab iste dolores, odit earum a totam magnam officia consequuntur nostrum nihil doloribus odio provident fugit.</p>
+            <h4> Creative Spice Substitutes</h4>
+            <p>Don't have a specific spice on hand? Improvise with alternatives! For instance, cinnamon can often be replaced with nutmeg or allspice, depending on what's available in your pantry.</p>
+          </div>
+          <div class="tips-box">
+            <h4>Instant Coffee Flavor Boost</h4>
+            <p>Enhance the richness of chocolate desserts by adding a teaspoon of instant coffee to the batter. This trick intensifies the chocolate flavor without the need for extra ingredients.</p>
+          </div>
+          <div class="tips-box">
+            <h4>Customizable Mix-Ins</h4>
+            <p>If you lack muffin liners, cut parchment paper into squares and press them into the muffin tin. This makeshift liner will prevent sticking and make cleanup a breeze.</p>
+          </div>
+          <div class="tips-box">
+            <h4> Creative Spice Substitutes</h4>
+            <p>Personalize your recipes by incorporating whatever mix-ins you have available—whether it's chocolate chips, nuts, dried fruit, or shredded coconut. Get creative with your add-ins!</p>
+          </div>
+          <div class="tips-box">
+            <h4>Microwave Magic</h4>
+            <p>When conventional baking is a challenge, turn to microwave-friendly recipes. Mug cakes, brownies, and cookies can be prepared quickly with minimal equipment, perfect for a dorm room or shared kitchen space.</p>
           </div>
         </div>
       </div>
@@ -74,5 +101,62 @@
         
       </footer>
       <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+      <script>
+        var words = document.getElementsByClassName('word');
+var wordArray = [];
+var currentWord = 0;
+
+words[currentWord].style.opacity = 1;
+for (var i = 0; i < words.length; i++) {
+  splitLetters(words[i]);
+}
+
+function changeWord() {
+  var cw = wordArray[currentWord];
+  var nw = currentWord == words.length-1 ? wordArray[0] : wordArray[currentWord+1];
+  for (var i = 0; i < cw.length; i++) {
+    animateLetterOut(cw, i);
+  }
+  
+  for (var i = 0; i < nw.length; i++) {
+    nw[i].className = 'letter behind';
+    nw[0].parentElement.style.opacity = 1;
+    animateLetterIn(nw, i);
+  }
+  
+  currentWord = (currentWord == wordArray.length-1) ? 0 : currentWord+1;
+}
+
+function animateLetterOut(cw, i) {
+  setTimeout(function() {
+    cw[i].className = 'letter out';
+  }, i*80);
+}
+
+function animateLetterIn(nw, i) {
+  setTimeout(function() {
+    nw[i].className = 'letter in';
+  }, 340+(i*80));
+}
+
+function splitLetters(word) {
+  var content = word.innerHTML;
+  word.innerHTML = '';
+  var letters = [];
+  for (var i = 0; i < content.length; i++) {
+    var letter = document.createElement('span');
+    letter.className = 'letter';
+    letter.innerHTML = content.charAt(i);
+    word.appendChild(letter);
+    letters.push(letter);
+  }
+  
+  wordArray.push(letters);
+}
+
+changeWord();
+setInterval(changeWord, 4000);
+
+      </script>
 </body>
 </html>

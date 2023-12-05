@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
     <link rel="stylesheet" href="https://use.typekit.net/gps7sux.css">
@@ -11,7 +11,6 @@
 </head>
 <body>
     <nav class="nav-bar">
-        <h1 class="title-h1">Recipe Tracker!</h1>
         <ion-menu content-id="main-content">
             <ion-header>
               <ion-toolbar>
@@ -19,7 +18,7 @@
               </ion-toolbar>
             </ion-header>
             <ul class="nav-ul">
-              <a href="/index.html"><li>Home</li></a>
+              <a href="/home.html"><li>Home</li></a>
                 <a href="/BananaBread.html"><li>Banana Bread</li></a>
                 <a href="/CCCookies.html"><li>Chocolate Chip Cookies</li></a>
                 <a href="/MugCookie.html"><li>Mug Cookie</li></a>
@@ -47,8 +46,13 @@
     </nav>
     <div class="apple-1">
         <h1>Pumpkin Bread</h1>
-        <a href="https://www.allrecipes.com/recipe/6820/downeast-maine-pumpkin-bread/" target="_blank">By: AllRecipes.com</a>
-    </div>
+        <a class="recipe-link" href="https://www.allrecipes.com/recipe/6820/downeast-maine-pumpkin-bread/" target="_blank">By: AllRecipes.com</a>
+        <div class="recipepageimgs">
+          <img class="recipe-imgs" src="imgs/priscilla-du-preez-BpVSPBPX-5M-unsplash.jpg">
+          <img class="recipe-imgs" src="imgs/priscilla-du-preez-SU5jSHu1pK8-unsplash.jpg">
+          <img class="recipe-imgs" src="imgs/kavya-p-k-zQ4jrYelvLs-unsplash.jpg">
+        </div>
+      </div>
     <div class="ingredients-list">
         <h4 class="steps-header">Ingredients</h4>
         <ion-checkbox class="checkbox" label-placement="end">1 (15 ounce) can pumpkin puree</ion-checkbox>
@@ -92,7 +96,7 @@
         <br />
         <ion-checkbox class="checkbox" label-placement="end"><b>STEP 7:</b> Enjoy!</ion-checkbox>
         <br />
-        <p><b>*PRO TIP - </b> Although I usually would tell you to combine everything in one bowl to save dishes and time, make this one in two, the wet and the dry need to be seperate or your bread will have flour clumps. (trust me on this one ;))</p>
+        <p class="pro"><b>*PRO TIP - </b> Although I usually would tell you to combine everything in one bowl to save dishes and time, make this one in two, the wet and the dry need to be seperate or your bread will have flour clumps. (trust me on this one ;))</p>
     </div>
 </body>
 </html>

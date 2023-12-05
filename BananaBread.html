@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
     <link rel="stylesheet" href="https://use.typekit.net/gps7sux.css">
@@ -11,7 +11,6 @@
 </head>
 <body>
     <nav class="nav-bar">
-        <h1 class="title-h1">Recipe Tracker!</h1>
         <ion-menu content-id="main-content">
             <ion-header>
               <ion-toolbar>
@@ -45,9 +44,16 @@
             </ion-header>
           </div>
     </nav>
-
+    <div class="apple-1">
+      <h1>Banana Bread</h1>
+      <div class="recipepageimgs">
+        <img class="recipe-imgs" src="imgs/priscilla-du-preez-BpVSPBPX-5M-unsplash.jpg">
+        <img class="recipe-imgs" src="imgs/priscilla-du-preez-SU5jSHu1pK8-unsplash.jpg">
+        <img class="recipe-imgs" src="imgs/kavya-p-k-zQ4jrYelvLs-unsplash.jpg">
+      </div>
+  </div>
     <div class="ingredients-list">
-        <h1 class="baked-good">Banana Bread</h1>
+        
         <h4 class="steps-header">Ingredients</h4>
         <ion-checkbox class="checkbox" label-placement="end">1/2 cup butter melted</ion-checkbox>
         <br />
@@ -86,7 +92,7 @@
         <br />
         <ion-checkbox class="checkbox" label-placement="end"><b>STEP 6:</b> Put in bread pan, bake for 60 mins or until center is cooked</ion-checkbox>
         <br />
-        <p><b>*PRO TIP - </b> If you are limited on space and supplies or are feeling lazy (like me) you can combine everything in 1 bowl!</p>
+        <p class="pro"><b>*PRO TIP - </b> If you are limited on space and supplies or are feeling lazy (like me) you can combine everything in 1 bowl!</p>
     </div>
 </body>
 </html>
