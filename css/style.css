@@ -661,8 +661,8 @@ button:hover {
     padding-left:45px;
 }
 
-.steps-header, .pro {
-    padding-left:25px;
+.ingredients-list , .steps-list , .pro {
+    margin-left:30px;
 }
 
 .recipe-link:hover {
@@ -691,6 +691,8 @@ body {
     max-width: 30%;
     border-radius: 15px;
 }
+
+
 
 .example_b {
     color: #FFF6E9 !important;
