@@ -20,10 +20,10 @@ img.cookie {
 } 
 
 .nav-ul a::before {
-    display: none;
+    display: none !important;
 }
 .nav-ul a::after {
-    display: none;
+    display: none !important;
 }
  div.nav-items {
     display: flex;
