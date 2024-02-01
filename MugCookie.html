@@ -10,40 +10,26 @@
     <title>Recipe Tracker</title>
 </head>
 <body>
+  <header>
     <nav class="nav-bar">
-        <ion-menu content-id="main-content">
-            <ion-header>
-              <ion-toolbar>
-                <ion-title>Recipes</ion-title>
-              </ion-toolbar>
-            </ion-header>
-            <ul class="nav-ul">
-              <a href="/home.html"><li>Home</li></a>
-                <a href="/BananaBread.html"><li>Banana Bread</li></a>
-                <a href="/CCCookies.html"><li>Chocolate Chip Cookies</li></a>
-                <a href="/MugCookie.html"><li>Mug Cookie</li></a>
-                <a href="/MugCake.html"><li>Mug Cake</li></a>
-                <a href="/Crepes.html"><li>Crepes</li></a>
-                <a href="/SugarCookies.html"><li>Sugar Cookies</li></a>
-                <a href="/ApplePie.html"><li>Apple Pie</li></a>
-                <a href="/PumpkinBread.html"><li>Pumpkin Bread</li></a>
-                <a href="/Brownies.html"><li>Brownies</li></a>
-                <a href="/OatmealRasinCookies.html"><li>Oatmeal Raisin Cookies</li></a>
-                <a href="/ChocolateLoversTrifle.html"><li>Chocolate Lovers Trifle</li></a>
-                <a href="/Pudding.html"><li>Pudding</li></a>
-            </ul>
-          </ion-menu>
-          <div class="ion-page" id="main-content">
-            <ion-header>
-              <ion-toolbar>
-                <ion-buttons slot="start">
-                  <ion-menu-button></ion-menu-button>
-                </ion-buttons>
-                <ion-title>Recipes</ion-title>
-              </ion-toolbar>
-            </ion-header>
-          </div>
+     <div class="logo">
+      <a href="home.html"><img class="cookie" src="imgs/midnight-morsels-logo.png"></a> 
+     </div>
+     <h3 class="nav-header">The Chocoholics Guide to College Baking</h3>
+
+     <div class="nav-items">
+       <a class="nav-padding" href="/Recipe.html"><li>Recipes</li></a>
+       <a class="nav-padding" href="/TipsandTricks.html"><li>Tips and Tricks</li></a>
+       <a class="nav-padding" href="/stories.html"><li>Stories</li></a>
+     </div>
+     <!-- <div class="search">
+       <form action="/action_page.php">
+         <input type="text" placeholder="Search.." name="search">
+         <button class="srch-btn" type="submit">Submit</button>
+       </form> -->
+     </div>
     </nav>
+  </header>
     <div class="apple-1">
         <h1>Microwave Mug Cookie</h1>
         <a class="recipe-link" href="https://tasty.co/recipe/microwave-chocolate-chip-cookie" target="_blank">By: Tasty.co</a>
@@ -108,5 +94,38 @@
         </div>
         <p class="pro"><b>*PRO TIP - </b> Double ingredients for more cookie! </p>
     </div>
+    <div class="recipes-btn">
+      <a href="Recipes.html">Take me back to the recipes page please!</a>
+    </div>
+    <div id="section-7">
+      <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://www-tcgtcollegebaking-com.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+    <footer>
+      <div class="footer-icons">
+        <a href=mailto:"gabishorr@gmail.com"> <ion-icon name="mail"></ion-icon></a>
+        <a href="https://www.instagram.com/gabis.creations02/" target="_blank"> <ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://www.gabriellashorr.com/home" target="_blank"><ion-icon name="document"></ion-icon></a>
+      </div>
+      
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 </html>
